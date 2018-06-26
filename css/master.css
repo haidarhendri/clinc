@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  color: white;
+}
+
+.particle-background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.intro {
+  position: relative;
+  text-align: center;
+  top: 40px;
+}
+
+.intro h1 {
+  font-size: 52px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding-left: 25%;
+}
+
+.header-logo {
+  padding-left: 25%;
+  padding-top: 10%;
+}
+
+.btn {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 10px;
+  padding: 7px 28px;
+  text-decoration: none;
+  border: 1px solid: coral;
+  border-radius: 10px;
+}
+
+.btn-one {
+  background: coral;
+  color: #fff;
+}
+
+.btn-two {
+  background-color: coral;
+  transition: 0.4s;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .particle-background {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .particle-background {
+    width: auto;
+    height: 100%;
+  }
+}
+
+header {
+  background: rgba(0, 0, 120, 0.6);
+  height: 100vh;
+}

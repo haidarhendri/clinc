@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+header {
+  background-image: url("../images/services/worldmap-bg.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  margin: top 20px;
+  margin-bottom: 50px;
+  line-height: 32px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.page-content {
+  padding-left: 22em;
+  padding-right: 22em;
+}
+
+.page-content h1 {
+  text-align: center;
+  color: #DBC076;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+#page-heading {
+  display: flex;
+  background-image: linear-gradient(-180deg, #000000 0%, #222222 100%);
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+#tech {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(35, 35, 35);
+}
+
+.column{
+  display: flex;
+  flex-flow: column;
+  padding: 60px 0 60px 0;
+}
+
+.column .heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30em;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.row img {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 25em;
+}
+
+.row #text {
+  width: 40em;
+  color: #fff;
+  padding-right: 5em;
+}
+
+p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #97b4ca;
+}
+
+.row .element h3 {
+  margin: 30px 0 30px 0;
+  font-size: 25px;
+  color: #e5f4ff;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.feature-container {
+  background-image: url('../images/services/worldmap-bg.jpg');
+}
+
+.feature-container .element{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.feature-container {
+  display: flex;
+  flex-flow: column;
+
+}
+
+.feature-container h1 {
+  text-align: center;
+  color: #DBC076;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.feature-container .feature {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 22em;
+  padding-right: 22em;
+}

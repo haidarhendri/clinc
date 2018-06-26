@@ -1,0 +1,32 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	width: 1024px;
+	margin: 2em auto;
+
+}
+
+.slider-wrapper {
+  height: 50vh;
+  overflow: hidden;
+	position: relative;
+}
+
+.slider-wrapper img {
+  display: block;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+  height: 100%;
+  width: 45em;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}

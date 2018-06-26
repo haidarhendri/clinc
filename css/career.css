@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.7em;
+}
+
+header {
+  background-color: rgba(0, 0 ,0, 0.5);
+}
+
+header .intro {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .intro-image {
+  position: absolute;
+  overflow: hidden;
+  z-index: -5;
+  height: inherit;
+}
+
+.team-img {
+  display: flex;
+  flex-direction: row;
+  flex-flow:wrap;
+
+}
+
+.team-img .member {
+  width: 25%;
+  overflow: hidden;
+}
+
+.member img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.mission {
+  padding-left: 28%;
+  padding-right: 28%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h3 {
+ text-align: left;
+ font-size: 20px;
+ color: #061C3F;
+ padding-bottom: 20px;
+}
+
+p, li{
+  font-size: 17px;
+  color: #626C7E;
+}
+
+.benefits-container {
+  background-color: #f5f5f5;
+}
+
+.benefits {
+  padding-left: 25%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.benefits h3 {
+  text-align: center;
+}
+
+.benefits-desc {
+  padding-right: 40px;
+}
+
+.slider {
+  padding: 0;
+  align-self: flex-start;
+  height: 120%;
+  width: 120%;
+}
+
+.job-container {
+  padding-left: 28%;
+  padding-right: 25%;
+  padding-top: 100px;
+}
+
+.job-list {
+  padding-top: 20px;
+}
+
+.job-list ul {
+  list-style-type: none;
+}
+
+.job-list a {
+  text-decoration: none;
+  color:  #00aaef;
+}
+
+.job-list li:not(:last-child) {
+    margin-bottom: 25px;
+}
